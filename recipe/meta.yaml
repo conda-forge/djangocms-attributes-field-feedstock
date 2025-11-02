@@ -1,5 +1,5 @@
 {% set name = "djangocms-attributes-field" %}
-{% set version = "4.1.1" %}
+{% set version = "4.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/djangocms_attributes_field-{{ version }}.tar.gz
-  sha256: bc5f92abd2c567a5f9b25374729f545984a9c6643905f77f3f8c823805d5c5c4
+  sha256: ed7e9d78a47b30801fe6b411e1cb8aff3434ac594c2b6bb86c859d98aff59838
 
 build:
   noarch: python
